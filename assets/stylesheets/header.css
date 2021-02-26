@@ -1,0 +1,102 @@
+body, html {
+    cursor: url("../images/BUTTON 1.png");
+  }
+header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+.logo{
+    width:100%;
+  }
+  
+  .navbar-brand{
+    width: 200px;
+      padding: 0px;
+  } 
+  .name{
+      top: 25%;
+    left: -15%;
+    z-index: 2;
+    width: 500px;
+      position: absolute;
+      animation-name: name_img;
+      animation-duration: 1s;
+  }
+ 
+  @keyframes name_img {
+    from{
+        left: -200%;
+        
+
+    }
+    to{
+
+        top: 25%;
+        left: -15% ;    }
+    
+}
+  .brand_logo div{
+      z-index: 3;
+    position: relative;
+}
+  .brand_logo{
+      position: relative;
+  }
+  .navbar-default{
+
+      background:url("../images/HEADER TOP.png");
+      cursor: url("../images/HEADER TOP.png"),auto;
+      background-color: transparent;
+      height: 64px;
+      border: 0px solid transparent!important;
+      background-repeat:no-repeat;
+      width: 100%;
+      font-family: 'Roboto Slab', serif;
+      background-size: cover;
+      background-position: right;    }
+    .navbar-nav li:hover a{
+        height: 57px;
+        background-color: #EEEEEE!important;
+        color:#48C7BA!important; 
+    }
+
+
+    .nav_bar{
+      transition: 1s;
+
+      margin:auto 5em;
+    }
+  
+    @media(max-width:764px) {
+      body,html{
+        width: 100%;
+        overflow-x: hidden;
+      }
+      .search_form{
+        transition: 1s;
+        width: 100%;
+
+        margin: 0em auto;
+
+      }
+      .nav_bar{
+        transition: 1s;
+        margin:0em;
+
+      }
+      .navbar-default{
+        background: white;
+      }
+    }
+    .link_us{
+        position: absolute;
+        z-index: 2;
+        left: 0px;
+        margin: 0px;
+        color: white;
+    }
+    .link_us>li>a{
+        font-size: 25px;
+        color: white!important;
+    }

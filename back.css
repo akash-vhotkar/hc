@@ -1,0 +1,814 @@
+body, html {
+    cursor: url("../images/BUTTON 1.png");
+  }
+header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+.logo{
+    width:100%;
+  }
+  .navbar-brand{
+    width: 200px;
+      padding: 0px;
+  } 
+  .name{
+      top: 25%;
+    left: -15%;
+    z-index: 2;
+    width: 500px;
+      position: absolute;
+      animation-name: name_img;
+      animation-duration: 1s;
+  }
+  @keyframes name_img {
+    from{
+        left: -200%;
+    }
+    to{
+        top: 25%;
+        left: -15% ;}
+}
+  .brand_logo div{
+      z-index: 3;
+    position: relative;
+}
+  .brand_logo{
+      position: relative;
+  }
+  .navbar-default{
+      background:url("../images/HEADER TOP.png");
+      cursor: url("../images/HEADER TOP.png"),auto;
+      background-color: transparent;
+      height: 64px;
+      border: 0px solid transparent!important;
+      background-repeat:no-repeat;
+      width: 100%;
+      font-family: 'Roboto Slab', serif;
+      background-size: cover;
+      background-position: right;    }
+    .navbar-nav li:hover a{
+        height: 57px;
+        background-color: #EEEEEE!important;
+        color:#48C7BA!important; 
+    }
+    .nav_bar{
+      transition: 1s;
+      margin:auto 5em;
+    }
+    @media(max-width:764px) {
+      body,html{
+        width: 100%;
+        overflow-x: hidden;
+      }
+      .search_form{
+        transition: 1s;
+        width: 100%;
+        margin: 0em auto;
+      }
+      .nav_bar{
+        transition: 1s;
+        margin:0em;
+      }
+      .navbar-default{
+        background: white;
+      }
+    }
+    .link_us{
+        position: absolute;
+        z-index: 2;
+        left: 0px;
+        margin: 0px;
+        color: white;
+    }
+    .link_us>li>a{
+        font-size: 25px;
+        color: white!important;
+    }
+.carousel-inner,.item>img{
+    top:0%;
+    min-height: 700px;
+max-height: 700px;  
+width: 100%;  
+}
+.ani{
+  margin-top: 0px;
+  color: black;
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+      z-index: 2;
+      background-color: red;
+      width: 400px;
+      position: absolute;
+      animation-name: name_img2;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+  }
+  .content p span{
+      display: block;
+text-align: right;
+font-family: 'Roboto Slab', serif;
+font-weight: 700;  }
+  .content p{
+      margin-left: 50px;
+    justify-content: flex-start;
+    text-align: left;
+      display: block;
+      font-size: 18px;  
+  }
+  .content h1{
+      font-weight: 600;
+  }
+  .big{
+      font-size: 70px;
+  }
+  .pic img{
+      position: absolute;
+  }
+  .pic img:first-child{
+    bottom: 100px;
+    height: 290px;
+    width: 600px;
+    left: 650px;
+    z-index: 4;
+  }
+  .pic img:nth-child(2){
+    left: 280px;
+    height: 170px;
+    width: 125px;
+    bottom: 100px;
+    z-index: 2;
+}  .pic img:nth-child(3){
+    bottom: 90px;
+    left: 230px;
+    height: 450px;
+    width: 600px;
+}  .pic img:nth-child(4){
+    bottom: 100px;
+    left: 64px;
+    height: 246px;
+    width: 200px;
+}
+  .content{
+    font-family: 'Roboto Slab', serif;
+    height: 300px;
+    position: absolute;
+    top: -550px;
+    right: -200px;
+    width: 600px;
+  }
+  @keyframes name_img2 {
+    from{
+        width: 200px;
+    }
+    to{
+    width: 100px; 
+    }
+}
+.box p span{
+    text-transform: uppercase   ;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    display: block;
+}
+.main_name span{text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    position: absolute;
+}
+.main_name{
+    position: absolute;
+    text-transform: uppercase;
+    top: -400px;
+    text-align: center;
+    left: 125px;
+    font-weight: 400px;
+    font-size: 94px;
+    font-family: 'Roboto Slab', serif;
+}
+.box p{
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0 0 0px;
+}
+.box{
+    position: absolute;
+    right: -310px;
+    height: 270px;
+    padding: 10px 250px 10px 10px;
+    top: -470px;
+    width: 700px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.navigate{
+    margin: 280px 0px;
+    width: 50px;
+    height: 100px;
+}
+.carousel-control:hover, .carousel-control:focus{
+    opacity: 1!important;
+}
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 5s;
+}
+.flipInY{
+    animation-name: flipInY;
+    animation-duration: 2s;
+}
+.slideInDown{
+    animation-name: slideInDown;
+    animation-duration: 3s;
+}
+.slideInUp{
+    animation-name: slideInUp;
+    animation-duration: 2s;
+}
+.slideInRight{
+    animation-name: slideInRight;
+    animation-duration: 4s;
+}
+.slideInLeft{
+    animation-name: slideInLeft;
+    animation-duration: 4s;
+}
+.lightSpeedIn{
+    animation-name: lightSpeedIn;
+    animation-duration: 1s;
+}
+@media(max-width:764px){
+    .carousel-inner,.item>img{
+        top:0%;
+        min-height: 300px;
+    max-height: 300px;  
+    width: 100%;  
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.our-services{
+    width: 100% ;
+    height: 700px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.shead{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 200px;
+}
+.shead h1{
+    font-family: 'Roboto Slab', serif;
+}
+.shead div h4{
+    font-family: 'Roboto Slab', serif;
+}
+.talign{
+    height: 250px;
+    width: 300px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.talign img{
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.talign h3{
+    text-align: center;
+    color: #4EA69A;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+}
+.talign p{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.talign a img{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+}
+#possec{
+    width: 100%;
+    height: 2000px;
+    position: right;
+}
+#About-Us{
+    width: 100%;
+    height: 28%;
+    background: #48C7BA; 
+}
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #44484b;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+#line{
+    height: 52%;
+    width: 100%;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 0%;
+}
+#line img{
+    height: 100%;
+    width:100%;
+}
+#hcicon{
+    max-height: 320px;
+    max-width: 400px;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -11%;
+}
+#hcicon img{
+    height: 100%;
+    width: 100%;
+}
+#how-we-work{
+ width: 100%;
+ height: 750px;
+}   
+.rotatew{
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+   float: left; 
+   padding-right: 48%;
+   margin-left: -29%;
+}
+.rotatew h1{
+    font-weight: 700;
+    color: #48C7BA;
+    font-size: 57px;
+    font-family: 'Roboto Slab', serif;
+}
+.workimg{
+    width: 75%;
+    height: 850px;
+    position: absolute;
+}
+.workimg img{
+    width: 100%;
+    height: 100%;
+    margin-top: 140px;
+    margin-left: 380px;
+}
+#output{
+    height: 500px;
+    width: 100%;
+}
+.bgimg{
+    height: 100%;
+    width: 100%;
+}
+.bgimg img{
+    height: 100%;
+    width: 100%;
+}
+.ohead{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 60%;
+}
+.ohead h1{
+    font-weight: 900;
+    color: #48C7BA;
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+}   
+.oimg{
+    position: absolute;
+    height:350px;
+    width: 600px;
+    margin-top: -30%;
+    margin-left: 30%;
+}
+.logos{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 150px;
+    width: 100%;
+}
+.carousel-inner,.item>img{
+    top:0%;
+    min-height: 700px;
+max-height: 700px;  
+width: 100%;  
+}
+.ani{
+  margin-top: 0px;
+  color: black;
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+      z-index: 2;
+      background-color: red;
+      width: 400px;
+      position: absolute;
+      animation-name: name_img2;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+  }
+  .content p span{
+      display: block;
+text-align: right;
+font-family: 'Roboto Slab', serif;
+font-weight: 700;  }
+  .content p{
+      margin-left: 50px;
+    justify-content: flex-start;
+    text-align: left;
+      display: block;
+      font-size: 18px;  
+  }
+  .content h1{
+      font-weight: 600;
+  }
+  .big{
+      font-size: 70px;
+  }
+  .pic img{
+      position: absolute; 
+  }
+  .pic img:first-child{
+    bottom: 100px;
+    height: 290px;
+    width: 600px;
+    left: 650px;
+    z-index: 4;
+  }
+  .pic img:nth-child(2){
+    left: 280px;
+    height: 170px;
+    width: 125px;
+    bottom: 100px;
+    z-index: 2;
+}  .pic img:nth-child(3){
+    bottom: 90px;
+    left: 230px;
+    height: 450px;
+    width: 600px;
+}  .pic img:nth-child(4){ 
+    bottom: 100px;
+    left: 64px;
+    height: 246px;
+    width: 200px;
+}
+  .content{
+    font-family: 'Roboto Slab', serif;
+    height: 300px;
+    position: absolute;
+    top: -550px;
+    right: -200px;
+    width: 600px;
+  }
+  @keyframes name_img2 {
+    from{
+        width: 200px;
+    }
+    to{
+    width: 100px; 
+    }
+}
+.box p span{
+    text-transform: uppercase   ;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    display: block;
+}
+.main_name span{text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    position: absolute;
+}
+.main_name{
+    position: absolute;
+    text-transform: uppercase;
+    top: -400px;
+    text-align: center;
+    left: 125px;
+    font-weight: 400px;
+    font-size: 94px;
+    font-family: 'Roboto Slab', serif;
+}
+.box p{
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0 0 0px;
+}
+.box{
+    position: absolute;
+    right: -310px;
+    height: 270px;
+    padding: 10px 250px 10px 10px;
+    top: -470px;
+    width: 700px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.navigate{
+    margin: 280px 0px;
+    width: 50px;
+    height: 100px;
+}
+.carousel-control:hover, .carousel-control:focus{
+    opacity: 1!important;
+}
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 5s;
+}
+.flipInY{
+    animation-name: flipInY;
+    animation-duration: 2s;
+}
+.slideInDown{
+    animation-name: slideInDown;
+    animation-duration: 3s;
+}
+.slideInUp{
+    animation-name: slideInUp;
+    animation-duration: 2s;
+}
+.slideInRight{
+    animation-name: slideInRight;
+    animation-duration: 4s;
+}
+.slideInLeft{
+    animation-name: slideInLeft;
+    animation-duration: 4s;
+}
+.lightSpeedIn{
+    animation-name: lightSpeedIn;
+    animation-duration: 1s;
+}
+@media(max-width:764px){
+    .carousel-inner,.item>img{
+        top:0%;
+        min-height: 300px;
+    max-height: 300px;  
+    width: 100%;  
+    }
+}
+* {
+    box-sizing: border-box;
+}
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+      background-image: url(../HardCipher/assets/images/SUPPORT\ CENTER\ ICON.png);
+      width: 50%;
+      height: 500x;
+      padding: 0px;
+      margin: auto;
+  }
+#contactUs{
+ width: 100%;
+ height: 600px;
+ position: relative;
+}
+.contactbgimg{
+width: 100%;
+height: 100%;
+position: relative;
+}
+.contactbgimg img{
+width: 100%;
+height: 100%;
+}
+.support{
+    height: 450px;
+    width: 60%;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 40%;
+}
+.support img{
+    height: 70%;
+    width: 35%;
+   margin: auto;
+}
+.mail{
+    height: 75px;
+    width: 350px;
+    margin-left: -35%;
+}
+.mail img{
+    height: 100%;
+    width: 100%;
+}
+.mail h4{
+    margin-top: -10%;
+    margin-left: 22%;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+.phone{
+    height: 70px;
+    width: 350px;
+    margin-top: -8%;
+    margin-left: 24%;
+}
+.phone img{
+    height: 100%;
+    width: 100%;
+}
+.phone h4{
+    margin-top: -14%;
+    margin-left: 20%;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+.add{
+    height: 75px;
+    width: 700px;
+    margin-left: -28%;
+    margin-top: 2%;
+}
+.add img{
+    height: 100%;
+    width: 100%;
+}
+.add h4{
+    margin-top: -7%;
+    margin-left: 7%;
+    font-weight: 900;
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+}

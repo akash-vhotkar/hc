@@ -1,0 +1,179 @@
+
+.carousel-inner,.item>img{
+    top:0%;
+    min-height: 700px;
+max-height: 700px;  
+width: 100%;  
+}
+.ani{
+  margin-top: 0px;
+  color: black;
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+      z-index: 2;
+      background-color: red;
+      width: 400px;
+      position: absolute;
+      animation-name: name_img2;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+  }
+  .content p span{
+      display: block;
+text-align: right;
+font-family: 'Roboto Slab', serif;
+font-weight: 700;  }
+  .content p{
+      margin-left: 50px;
+    justify-content: flex-start;
+    text-align: left;
+      display: block;
+      font-size: 18px;  
+  }
+  .content h1{
+      font-weight: 600;
+  }
+  .big{
+      font-size: 70px;
+  }
+  .pic img{
+      position: absolute;
+     
+  }
+  .pic img:first-child{
+    bottom: 100px;
+    height: 290px;
+    width: 600px;
+    left: 650px;
+    z-index: 4;
+  }
+  .pic img:nth-child(2){
+    left: 280px;
+    height: 170px;
+    width: 125px;
+    bottom: 100px;
+    z-index: 2;
+}  .pic img:nth-child(3){
+    bottom: 90px;
+    left: 230px;
+    height: 450px;
+    width: 600px;
+}  .pic img:nth-child(4){
+    
+    bottom: 100px;
+    left: 64px;
+    height: 246px;
+    width: 200px;
+}
+
+
+  .content{
+    font-family: 'Roboto Slab', serif;
+    height: 300px;
+    position: absolute;
+    top: -550px;
+    right: -200px;
+    width: 600px;
+  }
+  
+  @keyframes name_img2 {
+    from{
+        width: 200px;
+        
+
+    }
+    to{
+    width: 100px; 
+    }
+    
+}
+.box p span{
+    text-transform: uppercase   ;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    display: block;
+    
+
+}
+.main_name span{text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    position: absolute;
+}
+
+.main_name{
+    position: absolute;
+    text-transform: uppercase;
+    top: -400px;
+    text-align: center;
+    left: 125px;
+    font-weight: 400px;
+    font-size: 94px;
+    font-family: 'Roboto Slab', serif;
+}
+.box p{
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0 0 0px;
+}
+.box{
+    position: absolute;
+    right: -310px;
+    height: 270px;
+    padding: 10px 250px 10px 10px;
+    top: -470px;
+    width: 700px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.navigate{
+    margin: 280px 0px;
+    width: 50px;
+    height: 100px;
+}
+.carousel-control:hover, .carousel-control:focus{
+    opacity: 1!important;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 5s;
+}
+.flipInY{
+    animation-name: flipInY;
+    animation-duration: 2s;
+
+}
+.slideInDown{
+    animation-name: slideInDown;
+    animation-duration: 3s;
+}
+.slideInUp{
+    animation-name: slideInUp;
+    animation-duration: 2s;
+}
+.slideInRight{
+    animation-name: slideInRight;
+    animation-duration: 4s;
+}
+.slideInLeft{
+    animation-name: slideInLeft;
+    animation-duration: 4s;
+}
+.lightSpeedIn{
+    animation-name: lightSpeedIn;
+    animation-duration: 1s;
+
+}
+@media(max-width:764px){
+    .carousel-inner,.item>img{
+        top:0%;
+        min-height: 300px;
+    max-height: 300px;  
+    width: 100%;  
+    }
+}

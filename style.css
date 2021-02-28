@@ -1,4 +1,16 @@
 /* body css */
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ 
+    
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+ 
+    
+ }
+
 #hclogo{
    
     top: 60px;
@@ -46,14 +58,78 @@
 .item1 h1{
     font-size: 7rem;
 }
-#item2{
+
+#item2 {
     position: absolute;
-    top: 20%;
-    
-    width: 42%;
-    right: 10%;
+    right: 0%;
     color: white;
+    width: 38%;
+    right: 5%;
+    top: 13%;
 }
+.images{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    top: 20%;
+
+    
+}
+
+#item3{
+    position: absolute;
+    opacity: 0.5;
+    top: 30%;
+    right: 0;
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    
+    
+    font-size: 2rem;
+  
+}
+.images #pc{
+    width: 40%;
+    position: absolute;
+    top:5%;
+    left: 20%;
+    width: 40%;
+    z-index: 10;
+    height: 60%;
+    z-index: 10;
+
+}
+ .images #laptop{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    z-index: 20;
+    width: 45%;
+    height: 45%;
+
+}
+.images #mobile{
+    position: absolute;
+    width: 13%;
+    height: 26%;
+    top: 40%;
+    left: 28%;
+    z-index: 20;
+
+}
+
+.images #tab{
+    position: absolute;
+    width: 15%;
+    height: 40%;
+    top: 30%;
+    left: 10%;
+    z-index: 20;
+
+}
+
+
 /* servises style */
 
 
@@ -73,4 +149,173 @@
     margin: auto;
     width: 40%;
     height: 20%;
+}
+
+/* footer of the page */
+.footer_area {
+	padding:60px 0 20px;
+	position: relative;
+	color: rgb(212, 146, 146);
+	z-index: 100;
+    width: 110vw;
+    background-color: #0cbaba;
+    
+	
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.single_ftr form{
+	margin-top: 8px;
+}
+.single_ftr p{
+	margin-bottom: 10px;
+}
+
+.sf_title{
+    color:  #a517ba;
+    text-transform: uppercase;
+    font-size: 17px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.ftr_logo {
+    float: left;
+    padding: 15px 46px 0 0;
+}
+.ftr_logo a img {
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+}
+.ftr_logo a:hover img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.3;
+}
+.newsletter_form form{
+	position: relative;
+	display: block;
+}
+.newsletter_form {
+	margin-top: 0px;
+	overflow: hidden;
+}
+.single_ftr p{
+	display: inline-block;
+}
+.newsletter_form .form-control {
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 8px 20px;
+    width: 100%;
+	position: relative;
+	background: transparent;
+	color: #fff;
+	border-radius: 0;
+}
+
+.newsletter_form button {
+	border: inherit;
+	border-radius: 0;
+	background: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	box-shadow: none;
+	border: 1px solid transparent;
+	transition: 0.5s;
+	letter-spacing: 0.5px;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	padding: 12px 17px;
+	transition: .5s;
+}
+.newsletter_form button:hover,
+.newsletter_form button:hover{
+	background: transparent;
+	color: #0cbaba;
+	opacity: .9;
+}
+.newsletter_form ::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+.newsletter_form ::-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+.newsletter_form :-ms-input-placeholder {
+    color: #fff;
+    opacity: 1
+}
+.newsletter_form :-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+.form-control{
+
+}
+.form-control:focus{
+	border-color: #33d286;
+}
+
+.single_ftr li {
+    padding-bottom: 7px;
+    color: #fff;
+}
+.single_ftr a {
+    color: #fff;
+}
+.single_ftr a:hover {
+    color:  #a517ba;
+    text-decoration: none;
+   
+}
+
+.ftr_social_icon li {
+	display: inline-block;
+	text-align: center;
+	padding: 4px;
+}
+
+
+.ftr_social_icon ul li a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    height: 40px;
+    line-height: 32px;
+    padding: 4px 8px;
+    width: 40px;
+	transition: .5s;
+}
+.ftr_social_icon ul li a:hover{
+	background: #0cbaba;
+	border-color:#0cbaba;
+	color: #fff;
+}
+
+.ftr_btm_area {
+	background: transparent;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px dotted #888;
+	margin-top: 28px;
+	z-index: 100;
+	position: relative;
+}
+.copyright_text{
+    margin: 6px 0;
+}
+.payment_mthd_icon li {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 30px;
+	color: #fff;
 }

@@ -14,7 +14,7 @@ html,body{
 #hclogo{
    
     top: 60px;
-    z-index: 3;
+    z-index: 35;
     width: 400px;
     position: fixed;
     height: 100px;
@@ -22,7 +22,7 @@ html,body{
 }
 #hcicon{
     position: fixed;
-    z-index: 4;
+    z-index: 40;
     width: 300px;
     height: 200px;
     top: 0;
@@ -30,7 +30,7 @@ html,body{
 }
 /* navbar css */
 .navbar {
-    z-index: 2;
+    z-index: 30;
     position: fixed;
     width: 100%;
     
@@ -42,7 +42,33 @@ html,body{
     color: black;
 
 }
-
+/* work section of the page */
+#work{
+    
+    width: 100vw;
+    height: 100vh;
+}
+#work img{
+    margin-left: 170px;
+}
+/* output section of the page */
+#ouputsection{
+    background-image: url('./assets/images/FINAL OUTPUT SECTION BACKGROUND.png');
+    background-size: cover;
+    margin-top: 15%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+#ouputsection img{
+margin-top: 100px;
+margin-left: 10px;
+    width: 50%;
+    height: 50%;
+}
+/* output section end here */
 /* carrousal css */
 #carouselExampleIndicators{
     position: absolute;
@@ -78,14 +104,13 @@ html,body{
 
 #item3{
     position: absolute;
+  background-color: white;
+    opacity: 0.3;
     opacity: 0.5;
     top: 30%;
     right: 0;
     height: 200px;
     width: 500px;
-    background-color: white;
-    
-    
     font-size: 2rem;
   
 }
@@ -128,7 +153,59 @@ html,body{
     z-index: 20;
 
 }
+/* contact us section of the pafe */
+#contactus{
+    background-image: url('./assets/images/CONTACT US SECTION  BACKGROUND.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -23px;
+}
+#contactus #contacticon{
+    width: 20%;
+    height: 20%;
+    margin-left: 300px;
+}
+#contactus .mail{
+    
+    width: 350px;
+    height: 100px;
+    background-size: cover;
+    background-image: url('./assets/images/EMAIL.png');
+}
+#contactus .mail p{
+    padding-top: 60px;
+    margin-left: auto;
+    padding-left: 40px;
 
+}
+#contactus .address{
+    
+    width: 350px;
+    height: 100px;
+    background-size: cover;
+    background-image: url('./assets/images/ADDRESS.png');
+}
+#contactus .address p{
+    padding-top: 40px;
+    margin-left: auto;
+    padding-left: 30px;
+
+}
+#contactus .no{
+    
+    width: 350px;
+    height: 100px;
+    background-image: url('./assets/images/PHONE NO..png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contactus .no p{
+    padding-top: 40px;
+    margin-left: auto;
+    padding-left: 30px;
+
+}
+/* contact us page end */
 
 /* servises style */
 
@@ -142,15 +219,42 @@ html,body{
 .card{
     border: 0;
     text-align: center;
-
 }
-
+.card .card-body .card-link img{
+ width: 40%;
+ height: 10%;
+}
 .card img{
     margin: auto;
     width: 40%;
     height: 20%;
 }
-
+/* about us pape  */
+.radialProgressBar {
+    border-radius: 50%;
+    -webkit-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+    width: 100px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #ddd;
+    margin: 20px;
+  }
+  .radialProgressBar .overlay {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+    padding-top: 10%;
+  }
+  .progress-10 {
+    background-image:  linear-gradient(10deg, #028cd5 90%, #ddd 10%);
+  }
+/* about us end here */
 /* footer of the page */
 .footer_area {
 	padding:60px 0 20px;
@@ -158,7 +262,7 @@ html,body{
 	color: rgb(212, 146, 146);
 	z-index: 100;
     width: 110vw;
-    background-color: #0cbaba;
+    background-color: #48C7BA;
     
 	
 	word-break: break-all;

@@ -10,8 +10,13 @@
     <script src="https://kit.fontawesome.com/5c174d451e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="assets/images/favicon.ico">
+    <title>HardCipher</title>
+
+
+
 </head>
 <style>
 
@@ -19,7 +24,7 @@
 
 <body>
     <img src="./assets/images/HEADER TOP.png" alt=""
-        style="width: 100%; z-index: 1;position: fixed; top: 0px; height: 80px; width: 100%;">
+        style="width: 100%; z-index: 1;position: fixed; top: 0px; height: 80px; width: 100%; z-index: 25;">
     <img src="./assets/images/HARD CIPHER LOGO.png" alt="" id="hclogo" class="animate__animated animate__fadeInLeft">
     <img src="./assets/images/HC ICON.png" alt="" id="hcicon">
     <nav class="navbar navbar-expand-lg  bg-white ">
@@ -94,9 +99,11 @@
             </div>
             <div class="carousel-item " data-mdb-interval="3">
                 <img class="d-block w-100" src="./assets/images/IMAGE 3.jpg" alt="Second slide">
-                <div id="item3" class="animate__animated animate__fadeInRight">
-                    <h1 class=" mt-5 ml-lg-2 ">We Help You
-                        TO ACHIEVE YOUR TARGETS</h1>
+                <div id="item3" class="animate__animated animate__fadeInRight " style="opacity: 0.2;">
+                    <div>
+                        <h1 class=" mt-5 ml-lg-2 ">We Help You
+                            TO ACHIEVE YOUR TARGETS</h1>
+                    </div>
 
 
                 </div>
@@ -139,7 +146,8 @@
                         development of awebsite and hosting the same via internet or intranet. It is customized as
                         per the client’s needs and requirements. It ranges from coding to non-design aspects, from
                         writing markups to complete programming of the website.</p>
-                    <a href="#" class="card-link">Go somewhere</a>
+                    <a href="#" class="card-link"><img src="./assets/images/MORE INFO BUTTON SERVICES SECTION.png"
+                            class="img-fluid mt-5" alt=""></a>
                 </div>
             </div>
             <div class="card">
@@ -151,7 +159,8 @@
                         elements and tools thereby connecting with the target audience.
 
                     </p>
-                    <a href="#" class="card-link">Go somewhere</a>
+                    <a href="#" class="card-link"><img src="./assets/images/MORE INFO BUTTON SERVICES SECTION.png"
+                            class="img-fluid " alt="" style="margin-top: 100px;"></a>
                 </div>
             </div>
             <div class="card">
@@ -163,7 +172,8 @@
                         Brand Management helps in building a loyal customer base and enables high levels of
                         retention. A brand may include an individual person, organization, service product or an
                         event.</p>
-                    <a href="#" class="card-link">Go somewhere</a>
+                    <a href="#" class="card-link"><img src="./assets/images/MORE INFO BUTTON SERVICES SECTION.png"
+                            alt="" class="img-fluid"></a>
                 </div>
             </div>
             <div class="card">
@@ -176,158 +186,368 @@
                         visitors on the website therefore getting maximum business out of it.
 
                     </p>
-                    <a href="#" class="card-link">Go somewhere</a>
+                    <a href="#" class="card-link"><img src="./assets/images/MORE INFO BUTTON SERVICES SECTION.png"
+                            class="img-fluid mt-4" alt=""></a>
                 </div>
             </div>
 
         </div>
-        <!-- logo section of the page -->
-        <!-- logo section end  here -->
+    </div>
+    <!-- about us section of the page -->
+    <div class="container-fluid" id="aboutus">
+        <div class="container d-flex justify-content-center">
 
-        <!-- testimoniall section end here -->
-        <section class="text-center my-5">
-            <div class="container">
-
-
-                <h2 class="h1-responsive font-weight-bold my-5">Testimonials </h2>
-
-                <div class="wrapper-carousel-fix">
-                    <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
-                        data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <div class="testimonial">
-                                    <div class="avatar mx-auto mb-4">
-                                        <!-- <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                                            class="rounded-circle img-fluid" alt="First sample avatar image"> -->
-                                    </div>
-                                    <div class="d-flex justify-content-center">
-                                        <div class="w-80" style="width: 50%;">
-                                            <p>
-                                                <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia
-                                                voluptas
-                                                sit
-                                                aspernatur aut
-                                                odit
-                                                aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                                voluptatem
-                                                sequi
-                                                nesciunt. Neque
-                                                porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                                                adipisci
-                                                velit,
-                                                sed quia
-                                                non numquam eius modi tempora incidunt ut labore.<i
-                                                    class="fas fa-quote-right"></i>
-                                            </p>
-                                            <h4 class="font-weight-bold">Maria Kate</h4>
-                                            <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
-                                        </div>
-
-                                    </div>
-                                    <i class="fas fa-star " style="color: gold;"> </i>
-                                    <i class="fas fa-star " style="color: gold;"> </i>
-                                    <i class="fas fa-star " style="color: gold;"> </i>
-                                    <i class="fas fa-star " style="color: gold;"> </i>
-                                    <i class="fas fa-star-half-alt " style="color: gold;"> </i>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="testimonial">
-                                    <div class="avatar mx-auto mb-4">
-                                        <!-- <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
-                                            class="rounded-circle img-fluid" alt="Second sample avatar image"> -->
-                                    </div>
-                                    <div class="d-flex justify-content-center">
-                                        <div class="w-80" style="width: 50%;">
-                                            <p>
-                                                <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia
-                                                voluptas
-                                                sit
-                                                aspernatur aut
-                                                odit
-                                                aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                                voluptatem
-                                                sequi
-                                                nesciunt. Neque
-                                                porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                                                adipisci
-                                                velit,
-                                                sed quia
-                                                non numquam eius modi tempora incidunt ut labore. <i
-                                                    class="fas fa-quote-right"></i>
-                                            </p>
-                                            <h4 class="font-weight-bold">Maria Kate</h4>
-                                            <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
-                                        </div>
-
-                                    </div>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="testimonial">
-                                    <div class="avatar mx-auto mb-4">
-                                        <!-- <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"
-                                            class="rounded-circle img-fluid" alt="Third sample avatar image"> -->
-                                    </div>
-                                    <div class="d-flex justify-content-center">
-                                        <div class="w-80" style="width: 50%;">
-                                            <p>
-                                                <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia
-                                                voluptas
-                                                sit
-                                                aspernatur aut
-                                                odit
-                                                aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                                voluptatem
-                                                sequi
-                                                nesciunt. Neque
-                                                porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                                                adipisci
-                                                velit,
-                                                sed quia
-                                                non numquam eius modi tempora incidunt ut labore.<i
-                                                    class="fas fa-quote-right"></i>
-                                            </p>
-                                            <h4 class="font-weight-bold">Maria Kate</h4>
-                                            <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
-                                        </div>
-
-                                    </div>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                    <i class="fas fa-star blue-text" style="color: gold;"> </i>
-                                    <i class="far fa-star blue-text" style="color: gold;"> </i>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
-                            data-slide="prev">
-                            <span class="icon-prev text-dark" aria-hidden="true"><i
-                                    class="fas fa-chevron-left"></i></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
-                            data-slide="next">
-                            <span class="icon-next text-dark" aria-hidden="true"><i
-                                    class="fas fa-chevron-right"></i></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-md-11 mt-5">
+                <img src="./assets/images/LINE.png"
+                    style="position: absolute; top: 5px; left: 30px; width: 80%; height: 80%;" alt="">
+                <h4 class="text-center">About us </h4>
+                <p class="text-center">Hardcipher is dedicated to build new and innovative mobile and web applications
+                    that are user friendly and easy to access. SEO and SMO is done by the company with and ultimate aim
+                    of customer satisfaction. We also offer various other services like web hosting, graphic designing,
+                    content writing etc. Hardcipher works on "innovation with customer satisfaction"</p>
             </div>
-        </section>
+
+        </div>
+
 
     </div>
-    <!-- testimonial section end here -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="progress" data-percentage="67">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                            <div>
+                                74%<br>
+                                <span>completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="progress" data-percentage="67">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                            <div>
+                                74%<br>
+                                <span>completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="progress" data-percentage="67">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                            <div>
+                                74%<br>
+                                <span>completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="progress" data-percentage="67">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                            <div>
+                                74%<br>
+                                <span>completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- about section end of the page -->
+    <!-- how we work section -->
+    <div class="container-fluid" id="work">
+        <img src="./assets/images/HOW TO WORK DIAGRAM WITH MATTER.png" class="img-fluid" alt="">
+
+
+    </div>
+    <!-- how we work section end here -->
+    <!-- output section of the page -->
+    <div class="container-fluid" id="ouputsection">
+        <div class="container">
+            <img src="./assets/images/WhatsApp Image 2018-12-28 at 1.53.04 PM.jpeg" alt="">
+        </div>
+    </div>
+
+
+    <!-- outpurt section end  hwew -->
+
+
+    <!-- testimoniall section end here -->
+    <section class="text-center my-5">
+        <div class="container">
+
+
+            <h2 class="h1-responsive font-weight-bold my-5">Testimonials </h2>
+
+            <div class="wrapper-carousel-fix">
+                <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
+                    data-ride="carousel" data-interval="false">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="testimonial">
+                                <div class="avatar mx-auto mb-4">
+                                    <!-- <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                                            class="rounded-circle img-fluid" alt="First sample avatar image"> -->
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="w-80" style="width: 50%;">
+                                        <p>
+                                            <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia
+                                            voluptas
+                                            sit
+                                            aspernatur aut
+                                            odit
+                                            aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                                            voluptatem
+                                            sequi
+                                            nesciunt. Neque
+                                            porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                            adipisci
+                                            velit,
+                                            sed quia
+                                            non numquam eius modi tempora incidunt ut labore.<i
+                                                class="fas fa-quote-right"></i>
+                                        </p>
+                                        <h4 class="font-weight-bold">Maria Kate</h4>
+                                        <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
+                                    </div>
+
+                                </div>
+                                <i class="fas fa-star " style="color: gold;"> </i>
+                                <i class="fas fa-star " style="color: gold;"> </i>
+                                <i class="fas fa-star " style="color: gold;"> </i>
+                                <i class="fas fa-star " style="color: gold;"> </i>
+                                <i class="fas fa-star-half-alt " style="color: gold;"> </i>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial">
+                                <div class="avatar mx-auto mb-4">
+                                    <!-- <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg"
+                                            class="rounded-circle img-fluid" alt="Second sample avatar image"> -->
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="w-80" style="width: 50%;">
+                                        <p>
+                                            <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia
+                                            voluptas
+                                            sit
+                                            aspernatur aut
+                                            odit
+                                            aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                                            voluptatem
+                                            sequi
+                                            nesciunt. Neque
+                                            porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                            adipisci
+                                            velit,
+                                            sed quia
+                                            non numquam eius modi tempora incidunt ut labore. <i
+                                                class="fas fa-quote-right"></i>
+                                        </p>
+                                        <h4 class="font-weight-bold">Maria Kate</h4>
+                                        <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
+                                    </div>
+
+                                </div>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial">
+                                <div class="avatar mx-auto mb-4">
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="w-80" style="width: 50%;">
+                                        <p>
+                                            <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia
+                                            voluptas
+                                            sit
+                                            aspernatur aut
+                                            odit
+                                            aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                                            voluptatem
+                                            sequi
+                                            nesciunt. Neque
+                                            porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                            adipisci
+                                            velit,
+                                            sed quia
+                                            non numquam eius modi tempora incidunt ut labore.<i
+                                                class="fas fa-quote-right"></i>
+                                        </p>
+                                        <h4 class="font-weight-bold">Maria Kate</h4>
+                                        <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
+                                    </div>
+
+                                </div>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                                <i class="fas fa-star blue-text" style="color: gold;"> </i>
+                                <i class="far fa-star blue-text" style="color: gold;"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
+                        data-slide="prev">
+                        <span class="icon-prev text-dark" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
+                        data-slide="next">
+                        <span class="icon-next text-dark" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- thisse is contact us form -->
+    <div class="container-fluid" id="contactus">
+        <div class="container">
+            <section class="mb-4">
+                <div class="d-flex justify-content-center align-items-center">
+
+                    <h2 class="h1-responsive font-weight-bold ">Contact us</h2>
+                </div>
+                <div class="d-flex justify-content-center  align-items-center">
+                    <img src="./assets/images/SUPPORT CENTER ICON.png " class="m-auto" alt="" id="contacticon">
+
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-2">
+                                        <label for="name" class="p-2">Your name</label>
+                                        <input type="text" id="name" name="name" class="form-control "
+                                            style="outline: none;" placeholder="Enter Your Name">
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-2">
+                                        <label for="email" class="p-2">Your email</label>
+                                        <input type="text" id="email" name="email" class="form-control"
+                                            placeholder="Enter Your Email">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-2">
+                                        <label for="subject" class="p-2">Subject</label>
+                                        <input type="text" id="subject" name="subject" class="form-control"
+                                            placeholder="Enter Your SUbject here">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <label for="message" class="p-2">Your message</label>
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"
+                                            placeholder="Enter your message here"></textarea>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </form>
+
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary"
+                                onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <div class="mail">
+                                    <p class="ml-2 mb-0">infohardcipher@gmail.com</p>
+                                </div>
+
+
+                            </li>
+
+                            <li>
+                                <div class="address">
+                                    <p>address of hardcipher</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="no">
+                                    <p>wats no of the hardcipher</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+
+
+    <!-- testi/div>monial section end here -->
     <!-- footer start here -->
-    <footer class="footer_area">
+    <footer class="footer_area ">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
